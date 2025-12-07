@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGOTÁ - La ciudad que se vistió de rojo y blanco</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-heart text-danger"></i> BOGOTÁ
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Hero</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#intro">Introducción</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#links">Enlaces</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#relato">Micro Relato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container-fluid h-100 d-flex align-items-center justify-content-center">
+            <div class="row w-100 align-items-center">
+                <div class="col-lg-6 text-white order-2 order-lg-1">
+                    <div class="hero-content">
+                        <h2 class="display-4 fw-bold mb-4">
+                            Un Momento
+                            <br>
+                            <span class="text-danger">Histórico</span>
+                        </h2>
+                        <p class="lead mb-4">
+                            Después de 9 años de espera, Independiente Santa Fe se consagró campeón de visitante en una victoria que cambió la historia del fútbol colombiano.
+                        </p>
+                        <div class="stats mb-5">
+                            <div class="stat-item">
+                                <h3 class="text-danger fw-bold">9 Años</h3>
+                                <p>De espera</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="text-danger fw-bold">10ª</h3>
+                                <p>Estrella conseguida</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="text-danger fw-bold">Miles</h3>
+                                <p>De hinchas celebrando</p>
+                            </div>
+                        </div>
+                        <a href="#links" class="btn btn-danger btn-lg">
+                            <i class="fas fa-arrow-down me-2"></i>Explorar Contenido
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <img src="img/banner.jpeg" alt="Celebración histórica" class="img-fluid rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Introducción -->
+    <section id="intro" class="intro-section">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="img/la-guardia-albi-roja-sur-independiente-santa-fe-barrabrava-net.jpg" alt="Introducción" class="img-fluid rounded-lg shadow-lg">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">
+                        <span class="text-danger">Una Historia</span> de Pasión y Esperanza
+                    </h2>
+                    <p class="lead mb-4">
+                        Bogotá, la capital colombiana, fue testigo de un momento histórico que cambió para siempre la forma en que miles de hinchas viven el fútbol. Después de 9 años de espera, Independiente Santa Fe se consagró campeón de visitante, llevando la tan anhelada décima a la ciudad roja y blanca.
+                    </p>
+                    <p class="fs-5 mb-4">
+                        Este es el relato de cómo una ciudad entera se vistió de rojo y blanco. Una narrativa que mezcla pasión, resiliencia y el poder transformador del fútbol. Desde las primeras horas de la mañana en el parque Simón Bolívar, hasta el último grito de celebración, cada momento fue único e irrepetible.
+                    </p>
+                    <p class="fs-5 mb-5">
+                        Te invitamos a sumergirte en esta experiencia multimedia donde podrás ver, escuchar y leer la historia completa de cómo Bogotá vivió este histórico momento del fútbol colombiano.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#relato" class="btn btn-danger btn-lg">
+                            <i class="fas fa-book me-2"></i>Leer Relato
+                        </a>
+                        <a href="#galeria" class="btn btn-outline-dark btn-lg">
+                            <i class="fas fa-images me-2"></i>Ver Galería
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enlaces Section -->
+    <section id="links" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">
+                <i class="fas fa-link text-danger me-2"></i>Enlaces de Interés
+            </h2>
+            <div class="row g-4">
+                <!-- YouTube -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://youtube.com/shorts/9DxFvWbkqx0?feature=share" target="_blank" class="card link-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-youtube fa-3x text-danger mb-3"></i>
+                            <h5 class="card-title">YouTube Short</h5>
+                            <p class="card-text text-muted">Mira el resumen en video</p>
+                            <span class="badge bg-danger">Ver Video</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Spotify -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://open.spotify.com/episode/0naAxZPjbdbr5ABiIJR8hP?si=j2o-J_rmT_mK2wYd6NyKgg" target="_blank" class="card link-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-spotify fa-3x text-success mb-3"></i>
+                            <h5 class="card-title">Podcast en Spotify</h5>
+                            <p class="card-text text-muted">Escucha la historia completa</p>
+                            <span class="badge bg-success">Escuchar</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Canva 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://www.canva.com/design/DAG35lcPVEw/rrkuzCUoJBuJyKfTFL9C2Q/view?utm_content=DAG35lcPVEw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6970d07a10" target="_blank" class="card link-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-palette fa-3x text-warning mb-3"></i>
+                            <h5 class="card-title">Diseño Canva 1</h5>
+                            <p class="card-text text-muted">Presentación visual</p>
+                            <span class="badge bg-warning text-dark">Ver Diseño</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Canva 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://www.canva.com/design/DAG5PyXF-S0/JaBIzwE-ZBihkjGGTv9Aew/edit?utm_content=DAG5PyXF-S0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="card link-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-paint-brush fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Diseño Canva 2</h5>
+                            <p class="card-text text-muted">Editable y personalizable</p>
+                            <span class="badge bg-primary">Ver Diseño</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Canva 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://www.canva.com/design/DAG5c0Lo8tI/BllwykhFuVn0c0TMLsU_dQ/edit?utm_content=DAG5c0Lo8tI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="card link-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-image fa-3x text-info mb-3"></i>
+                            <h5 class="card-title">Diseño Canva 3</h5>
+                            <p class="card-text text-muted">Galería de contenido</p>
+                            <span class="badge bg-info">Ver Diseño</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Canva 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://www.canva.com/design/DAG4fhThVlA/oS-dNHfTFtu_Kzm5EwtZIA/edit?utm_content=DAG4fhThVlA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="card link-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-star fa-3x text-danger mb-3"></i>
+                            <h5 class="card-title">Diseño Canva 4</h5>
+                            <p class="card-text text-muted">Compartible y viral</p>
+                            <span class="badge bg-danger">Ver Diseño</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Micro Relato Section -->
+    <section id="relato" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center mb-5 fw-bold">
+                        <i class="fas fa-feather text-danger me-2"></i>El Micro Relato
+                    </h2>
+                    
+                    <div class="relato-container">
+                        <!-- Parte 1 -->
+                        <div class="relato-part mb-5">
+                            <p class="relato-text">
+                                Pronto la tranquilidad del parque Simón Bolívar y el silencio que lo rodea, en una mañana soleada como está, se transformará. Este es el preámbulo para una fiesta que teñirá de rojo la ciudad que aún duerme, pero cuya fuerza y esperanza ya está despierta.
+                            </p>
+                            <p class="relato-text">
+                                Para María, como para miles, hoy es la consagración del fútbol nacional. Cada prenda rojiblanca es un escudo, un pedazo de historia y un juramento a su equipo. Frente al espejo, no solo se viste; se transforma en una leona devota. El corazón ya late por el ritmo del bombo suena afuera.
+                            </p>
+                            <p class="relato-quote text-center">
+                                <em class="text-danger">"Hoy no es un día cualquiera, es nuestra celebración."</em>
+                            </p>
+                        </div>
+
+                        <!-- Parte 2 -->
+                        <div class="relato-part mb-5">
+                            <p class="relato-text">
+                                Después de 9 años, Independiente Santa Fe, lograba consagrarse campeón de visitante, una victoria soñada para una hinchada tan resiliente que nunca dejó de creer.
+                            </p>
+                            <p class="relato-quote text-center">
+                                <em class="text-danger">"¡Vamos que ya lo logramos!"</em>
+                            </p>
+                        </div>
+
+                        <!-- Parte 3 -->
+                        <div class="relato-part">
+                            <p class="relato-text">
+                                El escenario del parque Simón Bolívar fue testigo del ingreso de miles de aficionados con sus camisetas rojas y blancas, familias enteras con emociones compartidas se reunían para esperar a los guerreros de esta historia, los que traían desde Medellín la tan anhelada décima.
+                            </p>
+                            <p class="relato-text">
+                                El ambiente era indescriptible, cada rincón vibraba con los cánticos, la murga de la barra de Independiente Santa Fe animaba a los asistentes para la gran llegada de los jugadores.
+                            </p>
+                            <p class="relato-quote text-center">
+                                <em class="text-danger">"¡Hoy Bogotá es nuestra!"</em>
+                            </p>
+                            <p class="relato-text">
+                                Entre banderas, pólvora, risas y lágrimas los hinchas compartían sus anécdotas de cómo se vivió la final el día anterior.
+                            </p>
+                            <p class="relato-quote text-center">
+                                <em class="text-danger">"¡Dale, campeón!"</em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería Section -->
+    <section id="galeria" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">
+                <i class="fas fa-images text-danger me-2"></i>Galería de Fotos
+            </h2>
+            <div class="row g-4">
+                <!-- Foto 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item">
+                        <img src="img/Imagen1.png" alt="Celebración 1" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <p>La pasión rojiblanca</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Foto 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item">
+                        <img src="img/Imagen2.png" alt="Celebración 2" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <p>Familias unidas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Foto 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item">
+                        <img src="img/Imagen3.png" alt="Celebración 3" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <p>Pólvora y alegrías</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Foto 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item">
+                        <img src="img/Imagen4.png" alt="Celebración 4" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <p>El parque Simón Bolívar vibraba</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Foto 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item">
+                        <img src="img/Imagen5.png" alt="Celebración 5" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <p>Banderas de esperanza</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Foto 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item">
+                        <img src="img/Imagen6.png" alt="Celebración 6" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <p>9 años de espera</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Foto 7 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item">
+                        <img src="img/Imagen7.png" alt="Celebración 6" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <p>9 años de espera</p>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Foto 8 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item">
+                        <img src="img/Imagen8.png" alt="Celebración 6" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <p>9 años de espera</p>
+                        </div>
+                    </div>
+                </div>
+
+                                <!-- Foto 9 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item">
+                        <img src="img/Imagen9.png" alt="Celebración 6" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <p>9 años de espera</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-2">&copy; 2025 BOGOTÁ - La ciudad que se vistió de rojo y blanco</p>
+            <p class="text-muted">Celebración del fútbol, historia y pasión</p>
+            <div class="social-links mt-3">
+                <a href="https://youtube.com/shorts/9DxFvWbkqx0?feature=share" target="_blank" class="me-3 text-danger">
+                    <i class="fab fa-youtube fa-lg"></i>
+                </a>
+                <a href="https://open.spotify.com/episode/0naAxZPjbdbr5ABiIJR8hP?si=j2o-J_rmT_mK2wYd6NyKgg" target="_blank" class="me-3 text-success">
+                    <i class="fab fa-spotify fa-lg"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -377,6 +377,11 @@ footer p {
     margin: 0;
 }
 
+#final {
+    color: #bbb !important;
+    font-size: 18px;
+}
+
 .social-links a {
     transition: var(--transition);
 }
